@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background-image: linear-gradient( rgb(231, 245, 37), rgb(60, 255, 0),rgb(64, 225, 247));*/
+    background-image: linear-gradient( rgb(233, 248, 27), rgb(75, 226, 29),rgb(28, 210, 235),rgb(238, 37, 178),rgb(245, 52, 245));
+    }
+.emoji{
+    font-size: 15rem;
+     cursor: pointer;
+     user-select: none;
+
+}
+
+.openmouth{
+    display: none;
+}
+
+.smilingeyes{
+    display: none;
+}
+
+.active{
+    display: block;
+    
+}
+/*.beautiful{
+    display: none;
+}
+
+.kiss{
+    display: none;
+}
+
+.pasive{
+    display: block;
+    
+}*/
